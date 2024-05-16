@@ -5,6 +5,8 @@ import android.content.SharedPreferences
 
 object CommonPreferences {
     private const val COMMON_PREFERENCES_NAME = "LatinImeDictPrefs"
+
+    //this has to be changedddddd
     fun getCommonPreferences(context: Context): SharedPreferences {
         return context.getSharedPreferences(COMMON_PREFERENCES_NAME, 0)
     }
